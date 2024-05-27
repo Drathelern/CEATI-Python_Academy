@@ -21,7 +21,7 @@ DATA        = {
                 "messages" : [{"role": "user", "content": "What is Python?"}]
               }
 
-response        = requests.request("POST", INT_DATA['url'] + INT_DATA['endpoint'], headers=HEADERS, data=json.dumps(DATA))
+response        = requests.request("POST", INT_DATA['url'] + INT_DATA['endpoint_completions'], headers=HEADERS, data=json.dumps(DATA))
 response_json   = response.json()
 
 #Display all genAI reposonses

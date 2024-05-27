@@ -29,7 +29,7 @@ class chatGPT_Manager(object):
     self.api_key            = integration_data["api_key"]
     self.organization       = integration_data["organization"]
     self.base_url           = integration_data["url"]
-    self.endpoint           = integration_data["endpoint"]
+    self.endpoint           = integration_data["endpoint_completions"]
     self.model              = integration_data["model"]
     self.url                = self.base_url + self.endpoint
 

@@ -16,7 +16,7 @@ HEADERS     = {
               }
 
 #Perform request
-reponse = requests.request("GET",INT_DATA['url'] + INT_DATA['endpoint'], headers=HEADERS)
+reponse = requests.request("GET",INT_DATA['url'] + INT_DATA['endpoint_models'], headers=HEADERS)
 response_json = reponse.json()
 
 #List all_models

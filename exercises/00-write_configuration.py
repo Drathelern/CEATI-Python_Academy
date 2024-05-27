@@ -21,11 +21,12 @@ CONFIG.read(CONFIG_FILE)
 
 #Set new values
 integration_data = {
-  'api_key'      : '',
-  'organization' : '',
-  'url'          : 'https://api.openai.com/',
-  'endpoint'     : '/v1/chat/completions',
-  'model'        : 'gpt-4o'
+  'api_key'         : '',
+  'organization'    : '',
+  'url'             : 'https://api.openai.com/',
+  'model'           : 'gpt-4o',
+  'endpoint_models' : '/v1/models',
+  'endpoint_completions' : '/v1/chat/completions'
 }
 
 #set new value to Config parser object
