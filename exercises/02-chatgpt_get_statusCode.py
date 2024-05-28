@@ -17,8 +17,8 @@ HEADERS     = {
               }
 
 #Perform request
-reponse = requests.request("GET",BASE_URL + EDNPOINT, headers=HEADERS)
-status_code = reponse.status_code
+response = requests.request("GET",BASE_URL + EDNPOINT, headers=HEADERS)
+status_code = response.status_code
 
 #Print statys code 
 print(status_code)
